@@ -54,6 +54,9 @@ a28 = Actor.create(first_name: "Michael", last_name: "Caine", image: "http://s3.
 a29 = Actor.create(first_name: "Natalie", last_name: "Portman", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/natalie-portman.png", bio: "Natalie Portman is an Israeli-born American actress, producer, and director. Her first role was in the 1994 action thriller Lon: The Pr...")
 a30 = Actor.create(first_name: "Clive", last_name: "Owen", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/clive-owen.jpg", bio: "Clive Owen is an English actor who first gained recognition in the United Kingdom for playing the lead role in the ITV series Chancer fro...")
 a31 = Actor.create(first_name: "Matthew", last_name: "McConaughey", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/matthew-mcconaughey.jpg", bio: "Matthew David McConaughey is an American actor and producer. He first gained notice for his breakout role in the coming-of-age comedy Daz...")
+a32 = Actor.create(first_name: "Travis", last_name: "Fimmel", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Travis_Fimmel_by_Gage_Skidmore.jpg/800px-Travis_Fimmel_by_Gage_Skidmore.jpg", bio: "Travis Fimmel is an Australian actor and former model. He is best known for his high-profile Calvin Klein campaign, for co-starring opposite Patrick Swayze in the TV series The Beast and for his role as Ragnar Lothbrok in the History Channel series Vikings.")
+a33 = Actor.create(first_name: "Paula", last_name: "Patton", image: "https://upload.wikimedia.org/wikipedia/commons/d/dd/Paula_Patton_by_Gage_Skidmore.jpg", bio: "Paula Maxine Patton is an American actress. She made her film debut in the 2005 comedy film Hitch, and the following year she appeared in the musical film Idlewild.")
+a34 = Actor.create(first_name: "Benjamin", last_name: "Foster", image: "https://upload.wikimedia.org/wikipedia/commons/d/da/Ben_Foster_by_Gage_Skidmore.jpg", bio: "Benjamin A. 'Ben' Foster is an American actor. He has had roles in films including The Laramie Project, Liberty Heights, Get Over It, The Punisher, Hostage and X-Men: The Last Stand")
 
 m1 = Movie.create(title: "Ocean's 11", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/oceans-11.jpg", release_year: "2001", plot: "Dapper Danny Ocean (George Clooney) is a man of action. Less than 24 hours into his parole from a New Jersey penitentiary, the wry, chari...")
 m2 = Movie.create(title: "The Perfect Storm", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/the-perfect-storm.jpg", release_year: "2000", plot: "Based on a true story, the film tells of the courageous men and women who risk their lives every working day, pitting their fishing boats...")
@@ -65,6 +68,7 @@ m7 = Movie.create(title: "Iron Man", image: "http://s3.amazonaws.com/codecademy-
 m8 = Movie.create(title: "Sherlock Holmes", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/sherlock-holmes.jpg", release_year: "2009", plot: "When a string of brutal murders terrorizes London, it doesn't take long for legendary detective Sherlock Holmes (Robert Downey Jr.) and ...")
 m9 = Movie.create(title: "Closer", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/closer.jpg", release_year: "2004", plot: "Alice (Natalie Portman), who has moved to London, meets Dan (Jude Law) on the street. While looking at him, a taxi hits her. After taking ...")
 m10 = Movie.create(title: "Interstellar", image: "http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/interstellar.jpg", release_year: "2014", plot: "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Cai...")
+m11 = Movie.create(title: "Warcraft: the beginning", image: "https://upload.wikimedia.org/wikipedia/en/5/56/Warcraft_Teaser_Poster.jpg", release_year: "2016", plot: "Azeroth stands on the brink of war as its civilization, led by the humans, faces a fearsome race of invaders: orc warriors fleeing their dying world of Draenor to find their place in another. As a gateway known as the Dark Portal opens to connect the two worlds, the humans face destruction while the orcs face extinction. Anduin Lothar (Travis Fimmel), leader of the humans, and Durotan (Toby Kebbell), leader of the orcs, are then sent on a collision course that will decide the fate of their families, their people and their home.")
 
 m1.actors << [a1, a2, a3, a4, a5]
 m2.actors << [a1, a6, a25]
@@ -76,4 +80,5 @@ m7.actors << [a20, a21, a22, a10]
 m8.actors << [a20, a9, a23, a24]
 m9.actors << [a5, a9, a29, a30]
 m10.actors << [a31, a27, a28, a2]
+m11.actors << [a32,a33,a34]
 
