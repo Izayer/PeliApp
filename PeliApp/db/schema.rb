@@ -11,11 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160518061754) do
+ActiveRecord::Schema.define(version: 20160530061830) do
 
   create_table "actors", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "image"
+    t.string   "bio"
   end
 
   create_table "movies", force: :cascade do |t|
